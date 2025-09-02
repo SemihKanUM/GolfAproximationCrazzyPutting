@@ -24,12 +24,3 @@ Controls:
         ENTER   - (Re)Start simulation
 
 Remark: Please note that on macOS your application needs to be started with the -XstartOnFirstThread JVM argument, in order for LibGDX to work.
-
-Made By:
-Dominic Sagers,
-Eden Rochman Sharabi,
-Filip Polakowski-Karol,
-Kārlis Pūķis,
-Sascha Zwietink,
-Semih Kan,
-Sjoerd Boonen
