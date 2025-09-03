@@ -66,7 +66,7 @@ Instructions for running the Crazy Putting Game:
     1. Navigate to the main.DesktopLauncher.java starting from the Project file
         - desktop\src\main\DesktopLauncher.java
     2. Run the DesktopLauncher class file.
-    3. Press the "Play" button to start the game or press "Settings" to change the configurations
+    3. Press the "Play" button to start the game or press "Settings" to change the configurations.
 
 Controls:
     Camera (Relative to QWERTY button mappings):
