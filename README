@@ -25,7 +25,7 @@ Both approaches converge extremely fast and find precise launch parameters withi
 
 ## 🖼️ Example Terrains
 ### Maze Terrain
-![Maze Terrain](https://github.com/SemihKanUM/GolfAproximationCrazzyPutting/blob/main/Maze.png)
+![Maze Terrain](Maze.png)
 
 ### Small Lake in the Center
 ![Small Lake](smallLakeInCenter.png)
