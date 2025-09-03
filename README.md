@@ -28,7 +28,7 @@ Both approaches converge extremely fast and find precise launch parameters withi
 ![Maze Terrain](Maze.png)
 
 ### Small Lake in the Center
-![Small Lake](smallLakeInCenter.png)
+![Small Lake](SmallLakeInCenter.png)
 
 ---
 
