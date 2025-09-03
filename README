@@ -1,4 +1,66 @@
-Crazy Putting by Group 14: Project Manhattan
+# Intelligent Golf Bot ⛳🤖
+
+This project implements an **autonomous bot** that computes the correct **velocity** and **angle** to shoot a ball into a hole in a single attempt — even in highly complex terrains.  
+
+The bot uses two optimization strategies:  
+- **Manhattan Algorithm** (custom fast optimization method)  
+- **Newton–Raphson Algorithm** (numerical optimization method)  
+
+Both approaches converge extremely fast and find precise launch parameters within **milliseconds**.
+
+---
+
+## 🚀 Features
+- Calculates **one-shot solutions** for various terrains.
+- Uses **ODE solvers** and custom physics engine for realistic simulation.
+- Implements two distinct optimization methods:
+  - **ManhattanBot.java** – heuristic-based optimization.
+  - **NewtonBot.java** – gradient-based optimization using Newton–Raphson.
+- Handles **complex terrains** such as:
+  - Maze-like structures.
+  - Surfaces with obstacles or small lakes.
+- Extremely fast: solutions computed in **milliseconds**.
+
+---
+
+## 🖼️ Example Terrains
+### Maze Terrain
+![Maze Terrain](./Maze.png)
+
+### Small Lake in the Center
+![Small Lake](./SmallLakeInCenter.png)
+
+---
+
+## 📂 Project Structure
+- `Ball.java` – Ball physics and properties.  
+- `Goal.java` – Target hole representation.  
+- `Physics.java` – Physics engine and motion dynamics.  
+- `ODESolvers.java` – Numerical solvers for motion equations.  
+- `Launch.java` – Handles initial launch parameters.  
+- `ManhattanBot.java` – Custom Manhattan optimization bot.  
+- `NewtonBot.java` – Newton–Raphson optimization bot.  
+
+---
+
+## 🛠️ Technologies Used
+- **Java** (core implementation)  
+- **Numerical Optimization** (Newton–Raphson)  
+- **Custom Heuristic Optimization** (Manhattan)  
+- **Physics Simulation & ODE Solvers**  
+
+---
+
+## 📌 Related Topics
+- Artificial Intelligence in Games  
+- Numerical Optimization  
+- Physics Simulation  
+- Computational Geometry  
+- Robotics & Autonomous Agents  
+
+---
+
+## ▶️ Running the Project
 
 Instructions for running the Crazy Putting Game:
     1. Navigate to the main.DesktopLauncher.java starting from the Project file
